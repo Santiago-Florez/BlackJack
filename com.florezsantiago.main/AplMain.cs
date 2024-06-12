@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace BlackJack.com.florezsantiago.main
 {
-    internal class AplMain
+    class AplMain
     {
-        public static void main (string[] args)
+        public static void Main (string[] args)
         {
-
+            Controller controller = new Controller();
+            controller.Funcionar();
         }
     }
 }

@@ -8,9 +8,9 @@ namespace BlackJack.com.florezsantiago.model.interfaces
 {
     interface  ICartas
     {
-        Color color { get; set; }
-        Palo palo { get; set; }
-        Valor valor { get; set; }
+        Color color { get; }
+        Palo palo { get; }
+        Valor valor { get; }
     }
 
     enum Color
